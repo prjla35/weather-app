@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div class="form">
+        <input type="text" id="location" placeholder="Enter Location" />
+        <button onclick="getWeather()">Search</button>
+      </div>
+      <div class="weather">
+        <p id="city"></p>
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <img id="icon" src="https://media.tenor.com/t_zIg_K72JgAAAAj/happy-smile.gif" alt="Weather Icon" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
